@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    background-color: #37517E;
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.navbar{
+    background: #37517e6b;
+}
+.navbar-brand img{
+    max-width: 150px;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #418EBE !important;
+}
+
+.blue{
+    background-color: #47B2E4;
+    color: #fff;
+
+}
+.banner-content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+header h1{
+
+    font-size: 44px;
+
+    font-weight: 700;
+
+    line-height: 1.6;
+}
+header p{
+
+    margin: 30px 0;
+
+    line-height: 1.8;
+
+    font-weight: 500;
+}
+header a{
+
+}
+header .btn{
+    line-height: 1.8;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+header .btn i{
+    font-size: 40px;
+    color: #47B2E4;
+    /* display: inline-flex; */
+    /* align-items: center; */
+}
+header .btn:hover{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: rgb(71 178 228) !important;
+}
+.features-section{
+    padding: 100px 0;
+}
+.features{
+    padding: 40px 20px;
+}
+.features-padding{
+    padding: 0 20px;
+}
+.features > i{
+    font-size: 40px;
+    color: #47b2e4;
+}
+.features h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.8;
+    color: #1d5486;
+    margin-bottom: 30px;
+}
+.features h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0;
+    color: #1d5486;
+}
+.features p{
+    line-height: 1.8;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #939393;
+    color: #1d5486;
+}
+.features a{
+    color: #47B2E4;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.features a i{
+    font-size: 30px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+
+}
+.features a:hover i{
+    margin-left: 20px;
+}
+.features shadow-sm {
+    box-shadow: 0 0.125rem 1.25rem rgba(0,0,0,.075) !important;
+}
+.about-section{
+    background-color: #EAF5FC;
+    padding: 140px 0;
+    background-image: url(../images/people.png);
+    background-repeat: no-repeat;
+    background-size: 800px !important;
+    background-position: left-center;
+
+}
+.about-section h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #1d5486;
+    margin-bottom: 30px;
+
+}
+.about-section p{
+    font-size: 16px;
+    line-height: 2.0;
+    color: #609bc7;
+    margin-bottom: 50px; 
+}
+.about-section a{
+    background: #50c4f1;   
+    padding: 18px 25px;    
+    border-radius: 50px;    
+    color: #fff;
+    text-decoration: none;
+
+}
+.question-section{
+    padding: 100px 0;
+
+}
+.question-section h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #1d5486;
+}
+.question-section ul{}
+.question-section ul li{
+    margin-bottom:15px;
+    margin-top:15px;
+    line-height: 1.7;
+    font-weight: 600;
+    color:#1d5486;  
+
+}
+.question-section ul li i{
+    background:#12304a;
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size:20px;
+    border-radius: 3px;
+    margin-right:5px; 
+
+}
+.question-section ul li a{}
+
+/*large range section start*/
+.large-range-section{
+    background-color: #EAF5FC;
+    padding: 100px 0;
+}
+.large-range-section .features{ 
+    margin-bottom:25px;
+    background:#fff; 
+   }
+.heading{
+    text-align: center;
+    padding: 100px 50px;
+    padding-bottom: 100px 100px;
+}
+.heading h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #1d5486;
+    margin-bottom: 30px;
+}
+.heading h1 span{
+    color: #47B2E4;
+}
+.heading p{
+    max-width: 600px;
+    margin:auto;
+}
+
+/*large range section end*/
+/*soluation-section*/
+.soluation-section{
+    background-color: #37517E;
+    padding: 100px 0;
+
+}
+.soluation-section .heading{
+    padding-bottom: 0;
+}
+.soluation-section .heading h1{
+    color:#fff;
+
+}
+.soluation-section .heading p{
+    color: #fff;
+
+}
+.soluation-section .heading i{
+     color: #47B2E4;
+     font-size: 30px;
+     margin-top: 15px;
+}
+.members-section{
+    background-color: #EAF5FC;
+    padding: 100px 0;
+}
+.members-section h1{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    color: #1d5486;
+    margin-bottom: 30px;
+}
+.members-section p{}
+.members-section ul{
+    margin: 30px 0;
+}
+.members-section ul li{}
+.members-section ul li h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #1d5486;
+}
+.members-section ul li h4{
+    font-size: 41px;
+    font-weight: 900;
+    /* margin: 30px 0; */
+    color: #1d5486;
+}
+.members-section ul li:last-child{
+    
+border-left: 1px solid #3124243d;
+    
+margin-left: 20px;
+    
+padding-left: 20px;
+}
+.members-section a{
+    border: 2px solid #47b2e4;
+    color: #47b2e4
+}
+.members-section a i{}
+
+.Pricing-table-section{
+    
+}
+.price-table{
+
+box-shadow: 0 0.125rem 1.25rem rgba(0,0,0,0.75) !important;
+
+color: #12304a;
+
+border-radius: 10px;
+transition: all 0.3s linear;
+border-top: 3px solid transparent;
+}
+.price-heading{
+
+padding: 60px 30px;
+transition: all 0.3s linear;
+}
+.price-heading h5{
+
+font-size: 18px;
+
+font-weight: 600;
+}
+.price-heading h1{
+
+color: #1d5486;
+
+font-size: 45px;
+
+font-weight: 500;
+}
+.price-heading h1 span{
+
+font-weight: 300;
+
+font-size: 30px;
+}
+.price-heading strong{
+
+color: #47b2e4;
+
+font-weight: 500;
+}
+.price-table ul{
+    padding: 0;
+}
+.price-table ul li{
+    border-bottom: 1px solid #33333369;
+    padding: 10px 30px;
+    color: #12304a9e;
+}
+.price-table ul li i{
+
+color: green;
+    
+font-weight: 600;
+    
+font-size: 20px;
+    
+margin-right: 20px;
+}
+.order-now{
+    padding: 50px 30px;
+    transition: all 0.3s linear;
+}
+.order-now button{
+    border: 1px solid #47b2e4;
+    color: #47b2e4 !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.price-table.active{
+    border-top: 3px solid #47b2e4;
+}
+.price-table.active .price-heading{
+    padding-top: 80px;
+}
+.price-table.active .order-now{
+    padding-bottom: 80px;
+}
+.price-table:hover{
+    border-top: 3px solid #47b2e4;
+}
+.price-table:hover .price-heading{
+    padding-top: 80px;
+}
+.price-table:hover .order-now{
+    padding-bottom: 80px;
+}
+.subscription-section{
+    padding: 100px 0;
+    margin-top: 50px;
+    background-color: #eaf5fc;
+}
+.subscription-section input[type="text"]{
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    border-radius: 5px !important;
+}
+.subscription-section button{
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    border-radius: 5px !important;
+}
+.subscription-section label{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.subscription-section .form-check label{
+    font-size: 14px;
+    font-weight: 200;
+}
+.subscription-section .heading{
+    text-align: left;
+    padding-bottom: 0;
+    padding: 0;
+}
+/* style for footer */
+footer{
+    background: #37517E;
+    color: #fff;
+}
+.footer-content{
+    padding: 100px 0 60px 0;
+}
+.footer-content h3{   
+    font-size: 24px;   
+    margin-bottom: 30px;
+}
+.footer-content a{   
+    text-decoration: none;   
+    display: block;   
+    color: #BFC8D6;  
+    font-size: 15px;   
+    margin-bottom: 15px;
+}
+.footer-content a:hover{   
+    color: #7689a8;
+}
+.follow a{
+    display: inline-block !important;
+}
+.follow a i{
+    color: #fff;
+    background: cadetblue;
+    padding: 12px;
+}
+.follow a i:hover{
+    background: rgba(95, 158, 160, 0.562);
+}
+footer hr{
+    background: #BFC8D6;
+}
+.footer-bottom{
+    padding: 5px 0;
+}
+.footer-bottom p{
+    color: #BFC8D6;
+    font-size: 15px;
+}
+.footer-bottom img{
+    max-width: 100px;
+}
